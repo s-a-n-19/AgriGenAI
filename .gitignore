@@ -1,0 +1,114 @@
+# ============================================================================
+# AgriGenAI - Git Ignore File
+# ============================================================================
+
+# ============================
+# 1. DATASET (DON'T PUSH!)
+# ============================
+AgriGenAI_Dataset/
+**/images/
+**/Laboro/
+**/PlantVillage/
+**/SGN/
+**/CropsDB/*.xlsx
+
+# ============================
+# 2. NODE MODULES (FRONTEND)
+# ============================
+node_modules/
+agrigen-frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ============================
+# 3. PYTHON CACHE & ENV
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+tfenv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================
+# 4. JUPYTER NOTEBOOKS
+# ============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================
+# 5. OUTPUT FILES (EXCLUDE LARGE FILES!)
+# ============================
+# Exclude ALL .npy files (these are huge!)
+*.npy
+AgriGenAI_Output/features/*.npy
+AgriGenAI_Output/features/phenotype_features.npy
+AgriGenAI_Output/features/retrained_features.npy
+AgriGenAI_Output/features/feature_statistics.npz
+
+# Exclude backup models (we only need current models)
+AgriGenAI_Output/backup_before_retrain/
+
+# Don't push user uploads
+AgriGenAI_Output/uploads/*.jpg
+AgriGenAI_Output/uploads/*.png
+AgriGenAI_Output/uploads/*.jpeg
+
+# ============================
+# 6. FRONTEND BUILD & SUBMODULES
+# ============================
+agrigen-frontend/build/
+agrigen-frontend/.cache/
+agrigen-frontend/dist/
+agrigen-frontend/node_modules/
+*.log
+
+# ============================
+# 7. IDE & EDITOR FILES
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================
+# 8. ENVIRONMENT & SECRETS
+# ============================
+.env
+.env.local
+.env.production
+*.env
+config.local.js
+
+# ============================
+# 9. GIT ATTRIBUTES & TEMP FILES
+# ============================
+.gitattributes
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+allfiles.txt
+
+# ============================
+# 10. LARGE MODEL CHECKPOINTS
+# ============================
+*.h5
+*.ckpt
+*.weights
+
+# ============================================================================
+# END OF .gitignore
+# ============================================================================

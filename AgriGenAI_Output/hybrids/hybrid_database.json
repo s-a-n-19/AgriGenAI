@@ -1,0 +1,470 @@
+{
+  "Arka_Vikas": {
+    "parent_genotypes": ["G1", "G2"],
+    "traits": {
+      "yield": "High",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "High",
+      "fruit_size": "Large",
+      "maturity_days": 70
+    },
+    "optimal_temp": [20, 32],
+    "humidity_tolerance": [50, 80],
+    "genes": ["fw2.2-AA", "HSP-High", "Tm-2a-Present"],
+    "expected_traits": {
+      "yield": "High",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "High"
+    }
+  },
+  "Pusa_Ruby": {
+    "parent_genotypes": ["G3", "G4"],
+    "traits": {
+      "yield": "High",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Medium",
+      "fruit_size": "Medium",
+      "maturity_days": 65
+    },
+    "optimal_temp": [15, 28],
+    "humidity_tolerance": [40, 70],
+    "genes": ["fw2.2-Aa", "HSP-Medium", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "High",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Medium"
+    }
+  },
+  "Himsona": {
+    "parent_genotypes": ["G5", "G6"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "High",
+      "fruit_size": "Large",
+      "maturity_days": 75
+    },
+    "optimal_temp": [18, 32],
+    "humidity_tolerance": [60, 90],
+    "genes": ["fw2.2-AA", "HSP-High", "Tm-2a-Present"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "High"
+    }
+  },
+  "Kashi_Amrit": {
+    "parent_genotypes": ["G2", "G7"],
+    "traits": {
+      "yield": "High",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "Medium",
+      "fruit_size": "Medium",
+      "maturity_days": 68
+    },
+    "optimal_temp": [18, 30],
+    "humidity_tolerance": [45, 75],
+    "genes": ["fw2.2-Aa", "HSP-Medium", "Tm-2a-Present"],
+    "expected_traits": {
+      "yield": "High",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "Medium"
+    }
+  },
+  "Punjab_Chhuhara": {
+    "parent_genotypes": ["G4", "G8"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "High",
+      "fruit_size": "Small",
+      "maturity_days": 60
+    },
+    "optimal_temp": [20, 35],
+    "humidity_tolerance": [50, 85],
+    "genes": ["fw2.2-aa", "HSP-High", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "High"
+    }
+  },
+  "Super_Select": {
+    "parent_genotypes": ["G1", "G5"],
+    "traits": {
+      "yield": "High",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "High",
+      "fruit_size": "Large",
+      "maturity_days": 72
+    },
+    "optimal_temp": [20, 30],
+    "humidity_tolerance": [55, 80],
+    "genes": ["fw2.2-AA", "HSP-High", "Tm-2a-Present"],
+    "expected_traits": {
+      "yield": "High",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "High"
+    }
+  },
+  "Arka_Abha": {
+    "parent_genotypes": ["G6", "G9"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "Medium",
+      "fruit_size": "Medium",
+      "maturity_days": 70
+    },
+    "optimal_temp": [18, 28],
+    "humidity_tolerance": [50, 75],
+    "genes": ["fw2.2-Aa", "HSP-Medium", "Tm-2a-Present"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "Medium"
+    }
+  },
+  "Naveen_2000": {
+    "parent_genotypes": ["G3", "G10"],
+    "traits": {
+      "yield": "High",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "High",
+      "fruit_size": "Large",
+      "maturity_days": 68
+    },
+    "optimal_temp": [20, 32],
+    "humidity_tolerance": [50, 85],
+    "genes": ["fw2.2-Aa", "HSP-High", "Tm-2-Partial"],
+    "expected_traits": {
+      "yield": "High",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "High"
+    }
+  },
+  "Kashi_Vishesh": {
+    "parent_genotypes": ["G7", "G11"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Medium",
+      "fruit_size": "Medium",
+      "maturity_days": 65
+    },
+    "optimal_temp": [18, 28],
+    "humidity_tolerance": [45, 70],
+    "genes": ["fw2.2-Aa", "HSP-Medium", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Medium"
+    }
+  },
+  "Shalimar": {
+    "parent_genotypes": ["G2", "G12"],
+    "traits": {
+      "yield": "High",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "High",
+      "fruit_size": "Medium",
+      "maturity_days": 70
+    },
+    "optimal_temp": [20, 32],
+    "humidity_tolerance": [50, 80],
+    "genes": ["fw2.2-Aa", "HSP-High", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "High",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "High"
+    }
+  },
+  "Swarna_Sampad": {
+    "parent_genotypes": ["G5", "G13"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Medium",
+      "fruit_size": "Medium",
+      "maturity_days": 68
+    },
+    "optimal_temp": [18, 30],
+    "humidity_tolerance": [50, 75],
+    "genes": ["fw2.2-AA", "HSP-Medium", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Medium"
+    }
+  },
+  "Azad_T6": {
+    "parent_genotypes": ["G9", "G14"],
+    "traits": {
+      "yield": "High",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Low",
+      "fruit_size": "Large",
+      "maturity_days": 72
+    },
+    "optimal_temp": [18, 28],
+    "humidity_tolerance": [40, 65],
+    "genes": ["fw2.2-AA", "HSP-Low", "Tm-2a-Present"],
+    "expected_traits": {
+      "yield": "High",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Low"
+    }
+  },
+  "Roma_VF": {
+    "parent_genotypes": ["G6", "G15"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "Low",
+      "fruit_size": "Medium",
+      "maturity_days": 70
+    },
+    "optimal_temp": [18, 28],
+    "humidity_tolerance": [50, 75],
+    "genes": ["fw2.2-Aa", "HSP-Low", "Tm-2a-Present"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "Low"
+    }
+  },
+  "PKM_1": {
+    "parent_genotypes": ["G4", "G16"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Medium",
+      "fruit_size": "Small",
+      "maturity_days": 60
+    },
+    "optimal_temp": [20, 32],
+    "humidity_tolerance": [50, 80],
+    "genes": ["fw2.2-aa", "HSP-Medium", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Medium"
+    }
+  },
+  "CO_3": {
+    "parent_genotypes": ["G7", "G17"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "High",
+      "fruit_size": "Medium",
+      "maturity_days": 65
+    },
+    "optimal_temp": [20, 35],
+    "humidity_tolerance": [50, 85],
+    "genes": ["fw2.2-Aa", "HSP-High", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "High"
+    }
+  },
+  "Vaishali": {
+    "parent_genotypes": ["G10", "G18"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Medium",
+      "fruit_size": "Medium",
+      "maturity_days": 68
+    },
+    "optimal_temp": [18, 30],
+    "humidity_tolerance": [50, 75],
+    "genes": ["fw2.2-Aa", "HSP-Medium", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Medium"
+    }
+  },
+  "Improved_Sel_7": {
+    "parent_genotypes": ["G11", "G18"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Susceptible",
+      "stress_tolerance": "Medium",
+      "fruit_size": "Small",
+      "maturity_days": 62
+    },
+    "optimal_temp": [18, 28],
+    "humidity_tolerance": [45, 70],
+    "genes": ["fw2.2-aa", "HSP-Medium", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Susceptible",
+      "stress_tolerance": "Medium"
+    }
+  },
+  "Dhanashree": {
+    "parent_genotypes": ["G15", "G19"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Low",
+      "fruit_size": "Medium",
+      "maturity_days": 68
+    },
+    "optimal_temp": [18, 28],
+    "humidity_tolerance": [50, 75],
+    "genes": ["fw2.2-aa", "HSP-Low", "Tm-2a-Present"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "Low"
+    }
+  },
+  "Anand_Tomato_3": {
+    "parent_genotypes": ["G12", "G20"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "High",
+      "fruit_size": "Medium",
+      "maturity_days": 70
+    },
+    "optimal_temp": [20, 32],
+    "humidity_tolerance": [55, 85],
+    "genes": ["fw2.2-aa", "HSP-High", "Tm-2a-Present"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "High"
+    }
+  },
+  "Selection_120": {
+    "parent_genotypes": ["G16", "G21"],
+    "traits": {
+      "yield": "Low",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "Medium",
+      "fruit_size": "Small",
+      "maturity_days": 65
+    },
+    "optimal_temp": [18, 28],
+    "humidity_tolerance": [50, 75],
+    "genes": ["fw2.2-aa", "HSP-Medium", "Tm-2a-Present"],
+    "expected_traits": {
+      "yield": "Low",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "Medium"
+    }
+  },
+  "Marglobe": {
+    "parent_genotypes": ["G13", "G22"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "Low",
+      "fruit_size": "Medium",
+      "maturity_days": 75
+    },
+    "optimal_temp": [18, 28],
+    "humidity_tolerance": [50, 75],
+    "genes": ["fw2.2-aa", "HSP-Low", "Tm-2a-Present"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Resistant",
+      "stress_tolerance": "Low"
+    }
+  },
+  "Sioux": {
+    "parent_genotypes": ["G17", "G23"],
+    "traits": {
+      "yield": "Low",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "High",
+      "fruit_size": "Small",
+      "maturity_days": 68
+    },
+    "optimal_temp": [20, 35],
+    "humidity_tolerance": [50, 85],
+    "genes": ["fw2.2-aa", "HSP-High", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "Low",
+      "disease_resistance": "Moderate",
+      "stress_tolerance": "High"
+    }
+  },
+  "Pusa_Gaurav": {
+    "parent_genotypes": ["G14", "G24"],
+    "traits": {
+      "yield": "Medium",
+      "disease_resistance": "Susceptible",
+      "stress_tolerance": "Medium",
+      "fruit_size": "Medium",
+      "maturity_days": 70
+    },
+    "optimal_temp": [18, 28],
+    "humidity_tolerance": [45, 70],
+    "genes": ["fw2.2-aa", "HSP-Medium", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "Medium",
+      "disease_resistance": "Susceptible",
+      "stress_tolerance": "Medium"
+    }
+  },
+  "Pusa_Rohini": {
+    "parent_genotypes": ["G18", "G25"],
+    "traits": {
+      "yield": "Low",
+      "disease_resistance": "Susceptible",
+      "stress_tolerance": "Low",
+      "fruit_size": "Small",
+      "maturity_days": 65
+    },
+    "optimal_temp": [18, 28],
+    "humidity_tolerance": [45, 70],
+    "genes": ["fw2.2-aa", "HSP-Low", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "Low",
+      "disease_resistance": "Susceptible",
+      "stress_tolerance": "Low"
+    }
+  },
+  "Arka_Sourabh": {
+    "parent_genotypes": ["G8", "G26"],
+    "traits": {
+      "yield": "Low",
+      "disease_resistance": "Susceptible",
+      "stress_tolerance": "High",
+      "fruit_size": "Small",
+      "maturity_days": 70
+    },
+    "optimal_temp": [20, 35],
+    "humidity_tolerance": [50, 85],
+    "genes": ["fw2.2-aa", "HSP-High", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "Low",
+      "disease_resistance": "Susceptible",
+      "stress_tolerance": "High"
+    }
+  },
+  "Kashi_Aman": {
+    "parent_genotypes": ["G19", "G27"],
+    "traits": {
+      "yield": "Low",
+      "disease_resistance": "Susceptible",
+      "stress_tolerance": "Medium",
+      "fruit_size": "Small",
+      "maturity_days": 68
+    },
+    "optimal_temp": [18, 28],
+    "humidity_tolerance": [45, 70],
+    "genes": ["fw2.2-aa", "HSP-Medium", "Tm-2-Absent"],
+    "expected_traits": {
+      "yield": "Low",
+      "disease_resistance": "Susceptible",
+      "stress_tolerance": "Medium"
+    }
+  }
+}

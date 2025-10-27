@@ -1,0 +1,231 @@
+Folder PATH listing for volume Windows
+Volume serial number is 04EA-7CD4
+C:.
+¦   project_structure.txt
+¦   README.md
+¦   requirements.txt
+¦   structure_of_data.ipynb
+¦   
++---.ipynb_checkpoints
+¦       model-checkpoint.ipynb
+¦       structure_of_data-checkpoint.ipynb
+¦       Untitled-checkpoint.ipynb
+¦       
++---agrigen-frontend
+¦   ¦   .gitignore
+¦   ¦   package-lock.json
+¦   ¦   package.json
+¦   ¦   README.md
+¦   ¦   
+¦   +---node_modules
+¦   ¦   ¦   .package-lock.json
+¦   ¦   ¦   
+¦   ¦   +---.bin
+¦   ¦   +---.cache
+¦   ¦           
+¦   +---public
+¦   ¦       favicon.ico
+¦   ¦       index.html
+¦   ¦       logo192.png
+¦   ¦       logo512.png
+¦   ¦       manifest.json
+¦   ¦       robots.txt
+¦   ¦       
+¦   +---src
+¦           App.css
+¦           App.js
+¦           App.test.js
+¦           index.css
+¦           index.js
+¦           logo.svg
+¦           reportWebVitals.js
+¦           setupTests.js
+¦           
++---AgriGenAI_Code
+¦   ¦   additional_visualization.py
+¦   ¦   day4_backend_api.py
+¦   ¦   day4_backend_api_BACKUP.py
+¦   ¦   retrain_models.py
+¦   ¦   test_api.py
+¦   ¦   visualize_model_performance.py
+¦   ¦   
+¦   +---.ipynb_checkpoints
+¦   ¦       Untitled-checkpoint.ipynb
+¦   ¦       
+¦   +---utils
+¦           __init__.py
+¦           
+¦               
++---AgriGenAI_Output
+¦   ¦   inspect_outputs.py
+¦   ¦   
+¦   +---backup_before_retrain
+¦   ¦       disease_resistance_model.pkl
+¦   ¦       genotype_predictor.pkl
+¦   ¦       phenotype_features.npy
+¦   ¦       recommendation_engine.pkl
+¦   ¦       stress_tolerance_model.pkl
+¦   ¦       yield_trait_model.pkl
+¦   ¦       
+¦   +---features
+¦   ¦   ¦   feature_statistics.npz
+¦   ¦   ¦   phenotype_features.npy
+¦   ¦   ¦   retrained_features.npy
+¦   ¦   ¦   
+¦   ¦   +---.ipynb_checkpoints
+¦   +---hybrids
+¦   ¦       hybrid_database.json
+¦   ¦       
+¦   +---metadata
+¦   ¦       combined_training_data.csv
+¦   ¦       image_metadata.csv
+¦   ¦       image_metadata_with_traits.csv
+¦   ¦       
+¦   +---models
+¦   ¦       disease_resistance_model.pkl
+¦   ¦       genotype_predictor.pkl
+¦   ¦       recommendation_engine.pkl
+¦   ¦       stress_tolerance_model.pkl
+¦   ¦       yield_trait_model.pkl
+¦   ¦       
+¦   +---recommendations
+¦   +---reports
+¦   ¦       recommendation_report_1.txt
+¦   ¦       recommendation_report_2.txt
+¦   ¦       recommendation_report_3.txt
+¦   ¦       
+¦   +---uploads
+¦   ¦       20251023_234738_H1.jpg
+¦   ¦       
+¦   +---visualizations
+¦       ¦   class_distribution_per_trait.png
+¦       ¦   confusion_matrices_estimated.png
+¦       ¦   dataset_distribution.png
+¦       ¦   f1_score_heatmap.png
+¦       ¦   model_accuracy_summary.png
+¦       ¦   model_performance_report.txt
+¦       ¦   overfitting_check.png
+¦       ¦   per_class_performance.png
+¦       ¦   
+¦       +---backup
+¦               feature_distribution.png
+¦               pca_visualization.png
+¦               trait_prediction_performance.png
+¦               tsne_visualization.png
+¦               
++---notebooks
+    ¦   day1_test.ipynb
+    ¦   day2_genotype_mapping.ipynb
+    ¦   day3_weather_recommendation.ipynb
+    ¦   
+    +---.ipynb_checkpoints
+            day1_test-checkpoint.ipynb
+            day2_genotype_mapping-checkpoint.ipynb
+            day3_weather_recommendation-checkpoint.ipynb
+            
+
+
+
+./
+    structure_of_data.ipynb
+    .ipynb_checkpoints/
+        model-checkpoint.ipynb
+        structure_of_data-checkpoint.ipynb
+        Untitled-checkpoint.ipynb
+    AgriGenAI_Dataset/
+        CropsDB/
+            Solanum_lycopersicum.xlsx
+        Laboro/
+            annotations/
+                test.json
+                train.json
+            images/
+                IMG_0983.jpg
+                IMG_0984.jpg
+                IMG_0985.jpg
+                IMG_0986.jpg
+                IMG_0987.jpg
+                ...
+            labels/
+                IMG_0983.txt
+                IMG_0984.txt
+                IMG_0985.txt
+                IMG_0986.txt
+                IMG_0987.txt
+                ...
+        metadata/
+            master_dataset.csv
+        PlantVillage/
+            images/
+                Bacterial_spot/
+                    Bs10.jpg
+                    Bs100.jpg
+                    Bs1000.jpg
+                    Bs1001.jpg
+                    Bs1002.jpg
+                    ...
+                Early_blight/
+                    Eb1.jpg
+                    Eb10.jpg
+                    Eb100.jpg
+                    Eb101.jpg
+                    Eb102.jpg
+                    ...
+                healthy/
+                    H1.jpg
+                    H10.jpg
+                    H100.jpg
+                    H1000.jpg
+                    H1001.jpg
+                    ...
+                Late_blight/
+                    Lb1.jpg
+                    Lb10.jpg
+                    Lb100.jpg
+                    Lb1000.jpg
+                    Lb1001.jpg
+                    ...
+                Leaf_Mold/
+                    Lm1.jpg
+                    Lm10.jpg
+                    Lm100.jpg
+                    Lm101.jpg
+                    Lm102.jpg
+                    ...
+                Septoria_leaf_spot/
+                    Slf1.jpg
+                    Slf10.jpg
+                    Slf100.jpg
+                    Slf1000.jpg
+                    Slf1001.jpg
+                    ...
+                Target_Spot/
+                    Ts1.jpg
+                    Ts10.jpg
+                    Ts100.jpg
+                    Ts1000.jpg
+                    Ts1001.jpg
+                    ...
+                Tomato_mosaic_virus/
+                    Tmv1.jpg
+                    Tmv10.jpg
+                    Tmv100.jpg
+                    Tmv101.jpg
+                    Tmv102.jpg
+                    ...
+                Tomato_Yellow_Leaf_Curl_Virus/
+                    Tyl1.jpg
+                    Tyl10.jpg
+                    Tyl100.jpg
+                    Tyl1000.jpg
+                    Tyl1001.jpg
+                    ...
+                Two-spotted_spider_mite/
+                    Tssm1.jpg
+                    Tssm10.jpg
+                    Tssm100.jpg
+                    Tssm1000.jpg
+                    Tssm1001.jpg
+                    ...
+        SGN/
+            downloaded_images/
